@@ -25,9 +25,10 @@
 
 ## 힘들었던 점
  - Truffle 프레임워크에서 Unit Test를 처음 진행해봄
-<center> 
+
 ![](images/contract-test.png)
-</center>
+
+## 
 
 
 ## 기술 스택
