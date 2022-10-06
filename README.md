@@ -1,28 +1,33 @@
 # Incentive Community, Bito
 
+![](./images/bito.png)
+
 ## 프로젝트 소개
 
+<center>
 1. Home: 글을 쓰고, 포스팅을 할 수 있으며 follow 작업을 할 수 있다.
 
-    ![home.png](images/bito_home.png)
+![home.png](images/bito_home.png)
 
 2. Login: google OAuth 이용한 로그인.
 
     ![explore.png](images/bito_login.png)
 
-3. TokenDetail: NFT 작품의 상세 정보를 확인하고 거래를 할 수 있다.
+3. TokenDetail: NFT 작품의 상세 정보를 확인하고 거래를 할 수 있다.  
 
-    ![tokendetail.png](images/tokendetail.png)
-
-4. Create: 이미지를 NFT로 민팅할 수 있다.
-
-    ![create.png](images/create.png)
+4. Create: 이미지를 NFT로 민팅할 수 있다.    
 
 5. Profile: 현재 계정의 정보와 소유한 NFT 작품을 확인할 수 있다.
 
-    ![profile.png](images/profile.png)
+</center>
 
 ## Architecture
+
+## 힘들었던 점
+ - Truffle 프레임워크에서 Unit Test를 처음 진행해봄
+<center> 
+![](images/contract-test.png)
+</center>
 
 
 ## 기술 스택
