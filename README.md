@@ -21,14 +21,18 @@
 
 </center>
 
+## Project flow
+
+![](./images/flow.png)
+
 ## Architecture
+
+![](./images/01_architecture.png)
 
 ## 힘들었던 점
  - Truffle 프레임워크에서 Unit Test를 처음 진행해봄
 
 ![](images/contract-test.png)
-
-## 
 
 
 ## 기술 스택
@@ -43,6 +47,17 @@
 ![](https://img.shields.io/badge/Mocha-8D6748.svg?style=for-the-badge&logo=Mocha&logoColor=white)
 ![](https://img.shields.io/badge/Chai-A30701.svg?style=for-the-badge&logo=Chai&logoColor=white)
 
+
+## 질문
+
+**Q React를 사용한 이유**
+- SPA를 사용할 수 있어, Server에서 필요한 데이터를 Ajax 요청으로도 충분한 UI 구성이 가능하다고 판단함.
+- Front에서 Hook API를 통해 효율적인 데이터 관리가 용이하다고 판단
+
+**Q No-SQL을 사용한 이유**
+- RDB에 비해 속도가 빠름
+- 프로젝트에서 테이블간 엄격한 관계를 설정할 필요 없음.
+- MongoDB Atlas 사용으로 팀원간 빠른 파일럿 제작 가능
 
 ## 팀원
 
