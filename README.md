@@ -1,21 +1,6 @@
-# beb-05-Bito
-beb-05-Bito 
-- main branch는 dev-server입니다
- 
- 
- npm install 명령어를 통해 모듈을 설치한다. (/server, /client path에서)
+# Incentive Community, Bito
 
-    
-    npm install
-    
-
- 프로젝트를 실행한다.
-
-    
-    npm start
-    
-
-## 페이지
+## 프로젝트 소개
 
 1. Home: 글을 쓰고, 포스팅을 할 수 있으며 follow 작업을 할 수 있다.
 
@@ -25,45 +10,41 @@ beb-05-Bito
 
     ![explore.png](images/bito_login.png)
 
-<!-- 3. TokenDetail: NFT 작품의 상세 정보를 확인하고 거래를 할 수 있다.
+3. TokenDetail: NFT 작품의 상세 정보를 확인하고 거래를 할 수 있다.
 
-    ![tokendetail.png](imgs/tokendetail.png)
+    ![tokendetail.png](images/tokendetail.png)
 
 4. Create: 이미지를 NFT로 민팅할 수 있다.
 
-    ![create.png](imgs/create.png)
+    ![create.png](images/create.png)
 
 5. Profile: 현재 계정의 정보와 소유한 NFT 작품을 확인할 수 있다.
 
-    ![profile.png](imgs/profile.png) -->
+    ![profile.png](images/profile.png)
 
+## Architecture
 
 
 ## 기술 스택
 
-- 프론트엔드: React, node.js, SCSS
-- 블록체인: Etehreum(Rosten Testnet), Ganache
-- 기타: web3.js, NFT Storage, MetaMask
-
-
-
-.env_example 파일을 .env로 바꾸고에 아래를 채웁니다.
-
-   GOOGLE_CLIENT_ID
-   
-   GOOGLE_CLIENT_SECRET
-   
-   DATA_BASE_URL
-   
-   DATA_BASE_NAME
+![](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
+![](https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white)
+![](https://img.shields.io/badge/Ethereum-3C3C3D.svg?style=for-the-badge&logo=Ethereum&logoColor=white)
+![](https://img.shields.io/badge/Solidity-363636.svg?style=for-the-badge&logo=Solidity&logoColor=white)
+![](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
+![](https://img.shields.io/badge/Web3.js-F16822.svg?style=for-the-badge&logo=web3dotjs&logoColor=white)
+![](https://img.shields.io/badge/Mocha-8D6748.svg?style=for-the-badge&logo=Mocha&logoColor=white)
+![](https://img.shields.io/badge/Chai-A30701.svg?style=for-the-badge&logo=Chai&logoColor=white)
 
 
 ## 팀원
 
-박기백 [@parkkibaek](https://github.com/parkkibaek)
+|이름|Role|
+|---|----|
+|박기백 [@parkkibaek](https://github.com/parkkibaek)|팀장|
+|김병일 [@DevUreak](https://github.com/DevUreak)|Front|
+|서경근 [@Sapphire52000](https://github.com/Sapphire52000)|Front|
+|허윤석 [@ysheokorea](https://github.com/ysheokorea)|Backend + Contract|
 
-김병일 [@DevUreak](https://github.com/DevUreak)
 
-서경근 [@Sapphire52000](https://github.com/Sapphire52000)
-
-허윤석 [@ysheokorea](https://github.com/ysheokorea)
